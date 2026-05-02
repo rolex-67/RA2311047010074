@@ -32,7 +32,7 @@ async function getAuthToken() {
         const fs = require('fs');
         const path = require('path');
         const envPath = path.join(__dirname, '..', '.env');
-        fs.writeFileSync(envPath, `ACCESS_TOKEN=${response.data.access_token}\n`, { flag: 'a' });
+        fs.writeFileSync(envPath, `ACCESS_TOKEN=${response.data.access_token}\n`, { flag: 'w' });
         console.log(`\n🎉 I have automatically saved the ACCESS_TOKEN to your root .env file (${envPath})!`);
         console.log('You can now run the scheduler and priority inbox scripts directly.');
         
