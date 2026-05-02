@@ -1,6 +1,6 @@
 const express = require('express');
 const NotificationController = require('../controllers/notification.controller');
-const { Log } = require('affordmed-logging-middleware');
+const { Log } = require('custom-logging-middleware');
 
 const router = express.Router();
 

@@ -1,6 +1,6 @@
 const express = require('express');
 const axios = require('axios');
-const { Log } = require('affordmed-logging-middleware');
+const { Log } = require('custom-logging-middleware');
 require('dotenv').config({ path: '../.env' }); 
 
 const app = express();

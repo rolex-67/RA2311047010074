@@ -1,10 +1,10 @@
 require('dotenv').config();
 const mongoose = require('mongoose');
-const { Log } = require('affordmed-logging-middleware');
+const { Log } = require('custom-logging-middleware');
 const app = require('./app');
 
 const PORT = process.env.PORT || 5000;
-const MONGO_URI = process.env.MONGO_URI || 'mongodb://127.0.0.1:27017/affordmed_notifications';
+const MONGO_URI = process.env.MONGO_URI || 'mongodb://127.0.0.1:27017/Evaluation_notifications';
 
 async function startServer() {
     Log('backend', 'info', 'config', 'Starting server initialization process');

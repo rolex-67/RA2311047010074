@@ -1,6 +1,6 @@
 const express = require('express');
 const cors = require('cors');
-const { Log, requestLogger } = require('affordmed-logging-middleware');
+const { Log, requestLogger } = require('custom-logging-middleware');
 const notificationRoutes = require('./routes/notification.routes');
 
 const app = express();

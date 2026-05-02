@@ -7,7 +7,7 @@ const validStacks = ["backend", "frontend"];
 const validLevels = ["debug", "info", "warn", "error", "fatal"];
 
 /**
- * Reusable Log function for the Affordmed Evaluation Server
+ * Reusable Log function for the Evaluation Evaluation Server
  * stack: "backend" | "frontend"
  * level: "debug" | "info" | "warn" | "error" | "fatal"
  * packageName: Specific package name based on stack

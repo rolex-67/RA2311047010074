@@ -1,5 +1,5 @@
 const NotificationService = require('../services/notification.service');
-const { Log } = require('affordmed-logging-middleware');
+const { Log } = require('custom-logging-middleware');
 
 class NotificationController {
     async createNotification(req, res) {

@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const { Log } = require('affordmed-logging-middleware');
+const { Log } = require('custom-logging-middleware');
 
 // We log that the schema definition is starting, to adhere to logging rules
 function initSchema() {
